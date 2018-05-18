@@ -1,0 +1,1 @@
+﻿select p.name, prov.name from products p, providers prov, categories c where c.id=6 and c.id=p.id_categories and p.id_providers=prov.id; 
